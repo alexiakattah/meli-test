@@ -1,0 +1,51 @@
+#img_description {
+  width: 50%;
+  height: auto;
+  margin: auto 32px;
+}
+.container_img {
+  display: flex;
+  flex-direction: row;
+}
+.details {
+  padding: 32px;
+}
+.description_product {
+  padding: 42px;
+}
+
+.details > small {
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+.details p {
+  font-size: 24px;
+  padding: 16px 32px 32px 0;
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+.details strong {
+  font-size: 46px;
+  padding-top: 32px;
+}
+
+.button > button {
+  width: 100%;
+  background-color: #3483fa;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.button {
+  padding: 32px 32px 32px 0;
+}
+.description_product > strong {
+  font-size: 28px;
+}
+.description_product > p {
+  font-size: 16px;
+  padding: 32px 0;
+}

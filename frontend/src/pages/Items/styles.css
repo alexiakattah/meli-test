@@ -1,0 +1,57 @@
+.container {
+  max-width: 1020px;
+  margin: 16px auto;
+
+  background-color: #fff;
+  border-radius: 5px;
+}
+.list {
+  display: flex;
+  padding: 16px;
+}
+#product_image {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+}
+.products_items {
+  width: 60%;
+  padding-left: 16px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.price p {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 18px;
+}
+.price > img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+.city {
+  padding-top: 15px;
+  color: #666666;
+  font-size: 12px;
+}
+a,
+a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+hr {
+  width: 93%;
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  margin: auto;
+}
